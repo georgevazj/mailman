@@ -97,6 +97,7 @@ hs_err_pid*
 ## Plugin-specific files:
 
 # IntelliJ
+.idea
 /out/
 
 # mpeltonen/sbt-idea plugin
@@ -111,3 +112,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+src/test/java/com/bbva/mailman/config/
+src/test/java/com/bbva/mailman/services/

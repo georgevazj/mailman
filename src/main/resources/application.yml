@@ -1,0 +1,16 @@
+##TOMCAT
+server:
+  port: 3000
+
+##LOGGING
+logging:
+  file: logs/mailman.log
+  level: info
+
+##RABBITMQ
+spring:
+  rabbitmq:
+    host: 192.168.99.100
+    port: 32775
+    username: mailman
+    password: acceso0
